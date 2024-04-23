@@ -43,6 +43,34 @@ body {
     max-width: 200px;
     margin: 20px;
   }
+  .skill{
+    margin-top: 10px;
+  }
+  .bar{
+    margin-top: 10px;
+    height: 12px;
+    width: calc(100% - 40px);
+    border: 1px solid #1494c2;
+  }
+  .bar > div{
+    background-color: #1494c2;
+    height: inherit;
+  }
+  .per-5{
+    width: 100%;
+  }
+  .per-4{
+    width: 80%;
+  }
+  .per-3{
+    width: 60%;
+  }
+  .per-2{
+    width: 40%;
+  }
+  .per-1{
+    width: 20%;
+  }
 
   @media screen and (max-width: 480px) {
     .header{
