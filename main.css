@@ -5,6 +5,11 @@ body {
   background-color: #f4f4f4;
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(/font/Roboto-Regular.ttf);
+}
+
 .main {
   margin: 0 auto !important;
   padding: 0 !important;
@@ -137,7 +142,7 @@ h6 {
 }
 
 .firm-name {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
 }
